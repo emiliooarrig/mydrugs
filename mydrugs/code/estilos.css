@@ -1,0 +1,79 @@
+*{
+    border: 0;
+    margin: 0;
+}
+
+/*INICIO DE LA BARRA DE NAVEGACION*/
+header {
+    background-color: #000;
+    color: #fff;
+    min-height: 90px;
+    width: 100%;
+}
+
+nav {
+    background: #000;
+    height: 80px;
+    width: 100%;
+}
+
+.enlace {
+    position: absolute;
+    padding: 20px 50px;
+}
+
+.logo {
+    height: 65px;
+    transition: .3s linear;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    transition: .3s linear;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .3s linear;
+}
+
+nav ul li:hover{
+    transform: scale(1.1);
+}
+nav ul li a:hover{
+    color: rgb(66, 66, 66);
+    transform: scale(1.1);
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/*FIN DE LA BARRA */

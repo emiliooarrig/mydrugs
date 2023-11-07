@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+/*CSS DE LA FOTO DEL CSS*/
+.contenedorPastillaFoto{
+    display: inline-block;
+    margin-left: 40px;
+    height: 400px;
+    width: fit-content;
+    max-width: 50%;
+    color: #fff;
+}
+
+/*CSS DEL LA INFORMACION DE LA PASTILLA*/
+.contenedorPastilla1{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagenPastilla{
+    width: 400px;
+}
+
+.informacionPastilla{
+    display: inline-block;
+    color: #fff;
+    height: fit-content;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.pastilla1Titulo{
+    display: inline-block;
+    font-size: 40px;
+}
+.new{
+    color: cornflowerblue;
+}
+
+.premium{
+    color: #cfcfcf;
+}
+.texto-pastilla{
+    text-align: justify;
+}
+
+.precioPastilla{
+    color: #fff;
+    text-decoration: solid;
+    font-size: 35px;
+    margin-bottom: 30px;
+
+}
+
+.contenedorCompra{
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    margin-left: 40px;
+    height: 400px;
+    width: 300px;
+    border: 5px solid #fff;
+    border-radius: 25px;
+    padding: 25px;
+    color: #fff;
+    text-align: justify;
+}
+
+.botonAgregar{
+    padding: 20px;
+    color: #000;
+    border-radius: 20px;
+    width: 150px;
+    height: 50%;
+}

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: #fff;
+}
+
+ .seccion-preguntas{
+    display: grid;
+    place-items: center;
+} 
+
+.titulo-faq{
+    margin-bottom: 30px;
+}
+.pregunta{
+    color: #fff;
+    padding: 30px;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    width: 75%;
+    margin-bottom: 35px;
+}
+
+.parrafo-pregunta{
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: justify;
+
+}

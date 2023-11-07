@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.seccionInicial{
+    background-color: #000;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+} 
+.Inicial h1,h2{
+    color: #fff;
+    text-align: center;
+}
+
+.texto-inicial{
+    font-size: 25px;
+}
+
+.frasePrecio{
+    margin-top: 20px;
+    color: grey;
+}
+
+.imagenInicial{
+    margin: 25px;
+}
+
+.tituloInicial{
+    margin-bottom: 20px;
+}
+
+.cajasTexto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 50px;
+}
+
+.cajasTexto .caja{
+    border-top: 1px solid grey;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    max-width: 200px;
+}
+
+.seccionComprar{
+    background: url(imagenes-index/explosion-colores.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.comprar{
+    text-align: center;
+    margin-top: 40px;
+    color: #000000;
+    font-size: 25px;
+    line-height: 3em;
+}
+
+.botonComprar{
+    margin: 40px;
+    background-color: blue;
+    color: #fff;
+    width: 100px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s linear;
+}
+.pastillas{
+    margin: 10px;
+}
+.botonComprar:hover{
+    transition: .3s linear;
+    scale: 1.1;
+}
+
+.descuento{
+    background-color: #fff;
+    padding: 10px;
+}
+.pildorasFoto{
+    max-height: 100px;
+}

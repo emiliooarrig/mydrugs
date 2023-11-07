@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    background-color: #000;
+}
+
+/*CSS DE CADA UNO DE LOS ARTICULOS */
+.titulo-portada{
+    display: grid;
+    align-items: center;
+    place-content: center;
+    margin-top: 45px;
+    text-decoration: underline;
+    font-style: italic;
+    color: #fff;
+}
+
+.dentro-portada{
+    color: #fff;
+}
+.imagenesPastillas{
+    display: flex;
+    align-items: center;
+    place-content: center;
+    max-height: 250px;
+}
+
+.pastilla{
+    display: inline-block;
+    border: 5px solid #fff;
+    max-width: 400px;
+    height: 575px;
+    max-height: 700px;
+    border-radius: 15px;
+    margin: 40px;
+}
+.titulo-pastilla{
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.precioBTC{
+    background-color: orange;
+    width: 75%;
+    margin-top: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+}
+
+.precioETH{
+    background-color: purple;
+    width: 75%;
+    margin-top: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+}
+
+/*CSS DE LA SECCION DE NUEVOS ELEMENTOS*/ 
+.nuevos-elementos-titulo{
+    color: #fff; 
+    display: block;
+}
+
+.titulo-nuevos-elementos{
+    display: flex;
+    align-items: center;
+    place-content: center;
+    margin-top: 70px; 
+}
+
+.nuevos-elementos{
+    display: grid;
+    align-items: center;
+    place-content: center;
+}
+
+.nuevo{
+    display: flex;
+    border: 5px solid #fff;
+    width: 850px;
+    height: 600px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    transition: .3s linear;
+}
+
+.div-imagenes{
+    height:600px;
+    width: fit-content;
+    display: flex;
+    place-items: center;
+    align-items: center;
+}
+.imagenes-nuevo{
+    height: 400px;
+}
+
+.titulo-nuevo{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.mejor-vendido{
+    color: #fff;
+    transition: .3s linear;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.parrafo-nuevo{
+    color: #fff;
+    margin-top: 25px;
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.ver-masBoton{
+    width: 50%;
+    display: grid;
+    background-color: blue;
+    color: #fff;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: .2s linear;
+}
+
+.ver-masBoton:hover{
+    background-color: cornflowerblue;
+
+}
+
+.contenedorBoton{
+    display: grid;
+    place-items: center;
+}
+.botonAgregar{
+    display: grid;
+    padding: 10px;
+    margin-top: 25px;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    background-color: grey;
+    border-radius: 15px;
+}
+
+
+
